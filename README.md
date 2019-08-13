@@ -1,6 +1,5 @@
 # LetvForumAutuSendMessage
 discuz auto send message , reptile , JavaFX project
-<<<<<<< HEAD
 
 USEING : JAVAFX SQLITE MAVEN JFOENIX JSOUP 
 
