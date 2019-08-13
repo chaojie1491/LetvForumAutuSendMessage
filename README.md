@@ -14,5 +14,3 @@ after click start , now you can in console look send log info.
 乐视论坛加号并发送消息的爬虫小软件，本来是想好好写的，但是由于懒惰，界面功能不多，导致代码都在MainController类里面。
 
 
-=======
->>>>>>> c1dd321e1f81901f5ebe116e223ae28f7c76b7b3
