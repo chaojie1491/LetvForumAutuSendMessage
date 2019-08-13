@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane id="root" fx:id="root" xmlns="http://javafx.com/javafx/8.0.112"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <top>
+        <HBox prefHeight="10.0" BorderPane.alignment="CENTER">
+            <MenuBar stylesheets="@/css/menu.css" prefHeight="25.0" HBox.hgrow="ALWAYS">
+                <Menu mnemonicParsing="false" text="基础信息">
+                    <MenuItem fx:id="cookieMgr" mnemonicParsing="false" text="Cookie管理">
+                        <accelerator>
+                            <KeyCodeCombination alt="UP" code="R" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                        </accelerator>
+                    </MenuItem>
+                    <MenuItem fx:id="configEdit" mnemonicParsing="false" text="消息模板">
+                        <accelerator>
+                            <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                        </accelerator>
+                    </MenuItem>
+                    <MenuItem fx:id="linkMgr" mnemonicParsing="false" text="链接查看">
+                        <accelerator>
+                            <KeyCodeCombination alt="UP" code="G" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                        </accelerator>
+                    </MenuItem>
+                </Menu>
+
+                <Menu mnemonicParsing="false" text="系统">
+                    <MenuItem fx:id="exit" mnemonicParsing="false" text="退出">
+                        <accelerator>
+                            <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                        </accelerator>
+                    </MenuItem>
+                    <MenuItem fx:id="help" mnemonicParsing="false" text="帮助">
+                        <accelerator>
+                            <KeyCodeCombination alt="UP" code="h" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                        </accelerator>
+                    </MenuItem>
+                </Menu>
+            </MenuBar>
+        </HBox>
+    </top>
+    <center>
+    </center>
+</BorderPane>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="db.LetvCookieEntity" table="letv_cookie" schema="main">
+        <id name="cookieId">
+            <column name="cookie_id" sql-type="integer(11)"/>
+        </id>
+        <property name="cookieKey">
+            <column name="cookie_key" sql-type="text(20)" length="20" not-null="true"/>
+        </property>
+        <property name="cookieValue">
+            <column name="cookie_value" sql-type="text(20)" length="20" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
